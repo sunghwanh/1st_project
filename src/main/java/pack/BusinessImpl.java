@@ -10,7 +10,7 @@ public class BusinessImpl implements BusinessInter{
 	
 	@Autowired
 	private SangpumInter inter;
-	
+	// 재섭 수정함
 	public void dataList() {
 		ArrayList<SangpumDto> dlist = inter.seleList();
 		
